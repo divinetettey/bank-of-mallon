@@ -12,6 +12,11 @@ public class CreditCard extends Card {
         super(cardNumber, cardCVV, cardHolder);
     }
 
+    @Override
+    long generateCardNumber() {
+        return 0;
+    }
+
     public double getInterest() {
         return interest;
     }

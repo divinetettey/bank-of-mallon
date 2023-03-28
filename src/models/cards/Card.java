@@ -44,4 +44,6 @@ abstract public class Card {
     public void setCardHolder(String cardHolder) {
         this.cardHolder = cardHolder;
     }
+
+    abstract long generateCardNumber() ;
 }
